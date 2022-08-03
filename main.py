@@ -106,7 +106,7 @@ urlArr = ['https://lms.synergy.ru/course/c_8220908/megacampus/mUqRRMdvc8'
           '/txD1ppxErg.html',
           'https://lms.synergy.ru/course/c_8979659/megacampus/sH18nEPg1e'
           '/5ur0BAoK17.html', 'https://lms.synergy.ru/course/c_8979662/megacampus/DgocEmYbok/gRQcTqD2vB.html']
-# sourse = requests.get('https://lms.synergy.ru/course/c_8220908/megacampus/mUqRRMdvc8/Kuetee3bdX.html').text
-# soup = BeautifulSoup(sourse, 'html.parser')
-# print(soup.prettify())
+sourse = requests.get('https://lms.synergy.ru/course/c_8220908/megacampus/mUqRRMdvc8/Kuetee3bdX.html').text
+soup = BeautifulSoup(sourse, 'html.parser')
+print(soup.prettify())
 print(type(urlArr), len(urlArr))
